@@ -1,0 +1,36 @@
+{
+  "canonical_fields": [
+    "first_name",
+    "last_name",
+    "full_name",
+    "email",
+    "phone",
+    "lead_status",
+    "deal_stage",
+    "deal_value",
+    "close_date",
+    "project_status",
+    "delivery_date"
+  ],
+  "platforms": {
+    "hubspot": {
+      "first_name": "firstname",
+      "last_name": "lastname",
+      "email": "email",
+      "deal_stage": "dealstage",
+      "deal_value": "amount"
+    },
+    "airtable": {
+      "full_name": "Name",
+      "email": "Email",
+      "deal_stage": "Deal Stage",
+      "deal_value": "Contract Value"
+    },
+    "notion": {
+      "full_name": "Client Name",
+      "email": "Email",
+      "deal_stage": "Stage",
+      "deal_value": "Value"
+    }
+  }
+}
